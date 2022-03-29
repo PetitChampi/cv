@@ -1,0 +1,47 @@
+.header {
+  background-color: $body-bgcolor;
+  position: sticky;
+  top: 0;
+  padding: 1.25rem;
+  z-index: 1;
+  @media screen and (max-width: $tablet-breakpoint) {
+    padding: 1rem;
+  }
+  &-aside {
+    position: absolute;
+    top: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    @media screen and (max-width: $tablet-breakpoint) {
+      position: unset;
+      flex-direction: row;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1rem;
+      font-size: 1.5rem;
+    }
+    &--link {
+      display: inline-block;
+      &--txt {
+        @media screen and (max-width: $tablet-breakpoint) {
+          display: none;
+        }
+      }
+    }
+  }
+  &-intro {
+    text-align: center;
+    @media screen and (max-width: $tablet-breakpoint) {
+      font-size: .7rem;
+    }
+    &--title {
+      font-size: 2.5em;
+    }
+    &--subtitle {
+      font-size: 1.25em;
+      font-weight: $font-weight-regular;
+      opacity: .7;
+    }
+  }
+}

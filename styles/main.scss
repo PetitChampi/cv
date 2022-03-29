@@ -1,0 +1,49 @@
+.main {
+  margin: 0 auto;
+  padding: 0 2rem;
+  max-width: 800px;
+  line-height: 1.6;
+  @media screen and (max-width: $tablet-breakpoint) {
+    padding: 0 1rem;
+  }
+  &-section {
+    margin: 2.5rem 0;
+    &-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      &--title {
+        color: $primary-color;
+        font-size: 2rem;
+        font-weight: $font-weight-medium;
+      }
+      &--line {
+        height: 2px;
+        background-color: $base-text-color;
+        opacity: .2;
+        flex: 1;
+        margin-top: 0.5rem;
+      }
+    }
+    &-body {
+      &--heading {
+        margin: 2rem 0 1rem;
+        font-size: 1.25rem;
+        font-weight: $font-weight-medium;
+      }
+      p, ul {
+        margin-bottom: 1rem;
+        font-family: $text-font;
+        line-height: 1.5;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      ul {
+        padding-left: 1rem;
+        list-style: circle;
+      }
+    }
+  }
+}

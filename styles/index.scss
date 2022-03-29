@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:wght@200;400;500;700&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap');
+
+@import 'config';
+@import 'header';
+@import 'main';
+@import 'cv-item';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: $base-font, monospace;
+  font-weight: $font-weight-light;
+  background-color: $body-bgcolor;
+  color: $base-text-color;
+  margin: 0;
+  a {
+    transition: all ease .2s;
+    color: $accent-color;
+    text-decoration: none;
+    &:hover {
+      color: $darkened-accent-color;
+    }
+  }
+}
+
+@import 'print';

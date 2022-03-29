@@ -1,0 +1,22 @@
+// watch command:
+// sass --watch styles/index.scss:styles/css/index.css
+
+// ----- colors
+$body-bgcolor: #222;
+$accent-color: #879bff;
+$darkened-accent-color: darken(desaturate($accent-color, 10%), 10%);
+$primary-color: #fcbf49;
+$base-text-color: #ddd;
+
+// ----- typography
+$base-font: 'roboto mono', monospace;
+$text-font: 'inter', sans-serif;
+
+$font-weight-light: 200;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+// ----- other
+$tablet-breakpoint: 992px;
+$mobile-breakpoint: 600px;
