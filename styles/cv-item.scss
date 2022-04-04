@@ -2,8 +2,8 @@
   margin-top: 1.5rem;
   display: grid;
   grid-template:
-    'h h h h h l'
-    'b b b b b l';
+    'h h h h l l'
+    'b b b b b b';
   gap: 0 2rem;
   @media screen and (max-width: $mobile-breakpoint) {
     grid-template:
