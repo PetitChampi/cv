@@ -5,7 +5,7 @@
   padding: 1.25rem;
   z-index: 1;
   @media screen and (max-width: $tablet-breakpoint) {
-    padding: 1rem;
+    padding: .8rem;
   }
   &-aside {
     position: absolute;
@@ -43,6 +43,11 @@
       font-size: 1.25em;
       font-weight: $font-weight-regular;
       opacity: .7;
+    }
+    &--location {
+      display: inline-block;
+      margin-top: .5rem;
+      font-size: .8rem;
     }
   }
 }
