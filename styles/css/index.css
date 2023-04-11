@@ -85,12 +85,13 @@
   color: #fcbf49;
   font-size: 2rem;
   font-weight: 500;
+  line-height: 120%;
 }
 .main-section-header--line {
   height: 2px;
   background-color: #ddd;
   opacity: 0.2;
-  flex: 1;
+  flex-grow: 1;
   margin-top: 0.5rem;
 }
 .main-section-body--heading {
@@ -187,11 +188,9 @@ body a:hover {
     font-family: "Ubuntu", sans-serif;
     line-height: 1.3;
   }
-
   html {
     font-size: 12px;
   }
-
   body {
     background-color: #fff;
     font-weight: 400;

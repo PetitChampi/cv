@@ -17,12 +17,13 @@
         color: $primary-color;
         font-size: 2rem;
         font-weight: $font-weight-medium;
+        line-height: 120%;
       }
       &--line {
         height: 2px;
         background-color: $base-text-color;
         opacity: .2;
-        flex: 1;
+        flex-grow: 1;
         margin-top: 0.5rem;
       }
     }
