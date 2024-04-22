@@ -41,8 +41,8 @@
     }
     &--subtitle {
       font-size: 1.25em;
-      font-weight: $font-weight-regular;
-      opacity: .7;
+      font-weight: $font-weight-light;
+      color: $primary-color;
     }
     &--location {
       display: inline-block;
