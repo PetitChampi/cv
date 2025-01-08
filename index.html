@@ -7,15 +7,16 @@
   <title>Esther Bauzou | CV</title>
   <link rel="stylesheet" href="styles/css/iconfont.css">
   <link rel="stylesheet" href="styles/css/index.css">
+  <script src="./script.js" async defer></script>
 </head>
 
 <body>
 
   <header class="header">
     <div class="header-intro">
-      <h1 class="header-intro--title">Esther Bauzou</h1>
-      <h2 class="header-intro--subtitle">Frontend developer and UX/UI designer</h2>
-      <span class="header-intro--location">Working remotely from Europe</span>
+      <h1 class="header-intro--title">Esther Haddon</h1>
+      <h2 class="header-intro--subtitle">Frontend engineer and UX/UI designer</h2>
+      <span class="header-intro--location">Working remotely from Europe and the UK</span>
     </div>
     <aside class="header-aside">
       <a href="mailto:recruitment.esbauzou@gmail.com" target="_blank" class="header-aside--link">
@@ -26,9 +27,9 @@
         <span class="icon-github"></span>
         <span class="header-aside--link--txt">PetitChampi</span>
       </a>
-      <a href="https://www.linkedin.com/in/esbauz/" target="_blank" class="header-aside--link">
+      <a href="https://www.linkedin.com/in/eshadbauz/" target="_blank" class="header-aside--link">
         <span class="icon-linkedin-square"></span>
-        <span class="header-aside--link--txt">esbauz</span>
+        <span class="header-aside--link--txt">eshadbauz</span>
       </a>
     </aside>
   </header>
@@ -40,15 +41,15 @@
         <div class="main-section-header--line"></div>
       </div>
       <div class="main-section-body">
-        <p>I am a deeply curious and driven frontend developer, with a particular focus on providing impeccable end-user experiences. I have a strong eagerness to work in and foster an upbeat environment, which I believe would make me a valuable addition to any company looking for a dedicated and enthusiastic frontender.</p>
-        <p>I have been exploring both development and design techniques throughout my career, which has allowed me to develop a distinct blend of frontend engineering skills that harmoniously combines the intricate technical foundations with the appealing visual interfaces of digital products.</p>
-        <p>Over the course of my whole career, I have experienced working remotely, combining effective communication and collaboration with the benefits of flexibility. I greatly appreciate the balance remote work offers and would be eager to exclusively pursue this type of arrangement.</p>
+        <p>I am a deeply curious and driven frontend-leaning software engineer, with a particular focus on crafting impeccable end-user experiences.</p>
+        <p>I have been exploring both development and design techniques throughout my career, which has allowed me to develop a distinct blend of skills that combine both of these domains effectively.</p>
+        <p>Over the course of my whole career, I have spent a significant portion of my time working remotely, combining effective communication and collaboration with the benefits of flexibility. I greatly appreciate the balance remote work offers and would be eager to exclusively pursue this type of arrangement.</p>
         <p>I am looking forward to getting in touch and happily meeting up for a coffee, in person or virtually!</p>
         <h4 class="main-section-body--heading">A bit of data about me:</h4>
         <ul>
           <li>EU citizen (French)</li>
           <li>Languages: English (proficient), French (native), and Dutch (A2)</li>
-          <li>6 years of development and design experience</li>
+          <li><span id="yearsSince2018"></span> years of development and design experience</li>
         </ul>
       </div>
     </section>
@@ -59,6 +60,23 @@
         <div class="main-section-header--line"></div>
       </div>
       <div class="main-section-body cv">
+        <!-- PolitePixels -->
+        <article class="cv-item">
+          <div class="cv-item-header">
+            <h4 class="cv-item-header--title">PolitePixels</h4>
+            <h5 class="cv-item-header--subtitle">Co-Founder, Software Engineer & Web Designer</h5>
+          </div>
+          <div class="cv-item-body">
+            <ul>
+              <li>Designing and developing <b>bespoke websites</b> and <b>software solutions</b> using the latest frontend technologies (<b>React</b>, <b>Vue</b>, <b>Nuxt</b>), as well as <b>Golang</b> backends.</li>
+              <li>Building <b>observability solutions</b> for clients in fintech, finance & logistics. Implementing <b>SLOs</b> and <b>SLIs</b> when needed.</li>
+            </ul>
+          </div>
+          <div class="cv-item-location">
+            <span class="cv-item-location--title">St Helier, Jersey (remote)</span>
+            <span class="cv-item-location--subtitle">Apr&nbsp;2023 — Present</span>
+          </div>
+        </article>
         <!-- Gozynta -->
         <article class="cv-item">
           <div class="cv-item-header">
@@ -67,12 +85,12 @@
           </div>
           <div class="cv-item-body">
             <ul>
-              <li>Working <b>remotely</b> with an <b>international team</b> across 5 countries</li>
-              <li>Assumed <b>full ownership</b> of all frontend development, managing projects independently and effectively</li>
+              <li>Assuming <b>full ownership</b> of all frontend development, managing projects independently and effectively</li>
               <li>Conceiving a comprehensive <b>design system</b> as well as developing a full <b>component library</b>, and applying them across all existing products to enhance <b>brand consistency</b></li>
               <li>Wireframing, prototyping and developing the frontend for a new <b>payment portal</b>, from start to finish</li>
-              <li>Standardising the frontend ecosystem by transitioning from <b>11ty</b> to <b>Nuxt</b> and adopting <b>Vue 3 (+&nbsp;TypeScript)</b>, ensuring consistency and scalability</li>
-              <li>Implementing a frontend <b>monorepo</b> to streamline development processes, with  extensive <b>tests</b> and <b>documentation</b></li>
+              <li>Standardising the frontend ecosystem by transitioning from <b>11ty</b> to <b>Nuxt</b> and adopting <b>Vue 3 (+&nbsp;TypeScript)</b>, for better consistency and scalability</li>
+              <li>Implementing a frontend <b>monorepo architecture</b> to streamline development processes, with  extensive <b>tests</b> and <b>documentation</b></li>
+              <li>Working <b>remotely</b> with an <b>international team</b> across 5 countries</li>
             </ul>
           </div>
           <div class="cv-item-location">
@@ -88,11 +106,11 @@
           </div>
           <div class="cv-item-body">
             <ul>
-              <li>Working <b>remotely</b> with an <b>international team</b> across 5+ countries</li>
-              <li>Adopting both <b>agile scrum</b> and <b>kanban</b> work procedures, utilising <b>Jira</b>, <b>Confluence</b> and <b>Bitbucket</b></li>
               <li>Developing <b>SaaS</b> applications and libraries with <b>Vue.js</b>, <b>Vuex</b>, <b>GraphQL</b>, <b>Apollo</b>, <b>TailwindCSS</b> and <b>Storybook</b></li>
               <li>Supporting our main client's migration from <b>Vue 2</b> to <b>Vue 3</b></li>
               <li>Maintaining legacy codebases whilst collaborating on the architecture of their new tech stack</li>
+              <li>Working <b>remotely</b> with an <b>international team</b> across 5+ countries</li>
+              <li>Adopting both <b>agile scrum</b> and <b>kanban</b> work procedures, using <b>Jira</b>, <b>Confluence</b> and <b>Bitbucket</b></li>
               <li>Mentoring junior engineers on company development tools and <b>industry best practices</b></li>
             </ul>
           </div>
@@ -109,11 +127,10 @@
           </div>
           <div class="cv-item-body">
             <ul>
-              <li>Developing modern <b>user interfaces</b> for local and international organisations</li>
-              <li>Prototyping and presenting interfaces with <b>Figma</b> and <b>whiteboard exercises</b></li>
-              <li>Working with companies in the music, journalism, medical and beverage industries</li>
+              <li>Prototyping and presenting user interfaces with <b>Figma</b> and <b>whiteboard workshops</b></li>
               <li>Building and maintaining websites using <b>Webflow</b> and <b>Shopify 2.0 stores</b></li>
               <li>Extending functionality by implementing custom <b>Javascript API integrations</b> and scripts</li>
+              <li>Working with companies in the music, journalism, medical and beverage industries</li>
               <li>Fostering collaboration and a close working relationship with our end-clients</li>
             </ul>
           </div>
@@ -130,7 +147,7 @@
           </div>
           <div class="cv-item-body">
             <ul>
-              <li>Coding and integrating components and page layouts with <b>Vue.js</b> and <b>Nuxt.js</b></li>
+              <li>Coding and integrating components and page layouts with <b>Vue.js</b>, <b>Nuxt.js</b> and <b>Three.js</b></li>
               <li>Utilising <b>Git flow</b> to facilitate a structured collaborative work procedure</li>
               <li>Providing concise reports of my work and <b>translating client requirements</b> into technical solutions</li>
             </ul>
@@ -151,7 +168,7 @@
               <li>Supporting a rapidly evolving startup in the Sports and Mobility industry</li>
               <li>Designing logos, banners and various graphical assets for social media using the <b>Adobe</b> suite</li>
               <li>Participating in live design and user-mapping sessions with digital whiteboarding tools such as <b>Miro</b></li>
-              <li>Participating in the development of the original MVP using modern low code tools such as <b>Bubble</b>, <b>Adalo</b> and <b>Zapier</b></li>
+              <li>Participating in the development of the MVP using modern low code tools such as <b>Bubble</b>, <b>Adalo</b> and <b>Zapier</b></li>
             </ul>
           </div>
           <div class="cv-item-location">
@@ -168,8 +185,8 @@
           <div class="cv-item-body">
             <ul>
               <li>Analysing the webzine's market studies to better understand their user base and product requirements</li>
-              <li>Assisting in the redesign of the new website, which hosts content based around <b>Pop culture</b> and <b>Heroic Fantasy</b></li>
-              <li>Developing the new website's <b>Wordpress</b> theme in <b>PHP</b></li>
+              <li>Assisting in the redesign of the new <b>Pop culture</b> and <b>Heroic Fantasy</b> website</li>
+              <li>Developing the new site's <b>Wordpress</b> theme in <b>PHP</b></li>
             </ul>
           </div>
           <div class="cv-item-location">
@@ -185,8 +202,9 @@
           </div>
           <div class="cv-item-body">
             <ul>
-              <li>Designing and developing websites for local clients, mostly in the <b>Music</b> industry</li>
-              <li>Utilising a full <b>LAMP-based</b> tech stack comprising of <b>HTML</b>, <b>CSS</b>, <b>Javascript</b>, <b>PHP</b>, <b>MySQL</b> databases, sometimes <b>Wordpress</b></li>
+              <li>Designing and developing websites for local clients, mostly in the <b>music</b> industry</li>
+              <li>Building a custom, <b>LAMP-based</b> Content Management System (<b>HTML</b>, <b>CSS</b>, <b>Javascript</b>, <b>PHP</b>, <b>MySQL</b>)</li>
+              <li>Developing bespoke <b>Wordpress</b> themes and integrations</li>
             </ul>
           </div>
           <div class="cv-item-location">
@@ -229,9 +247,8 @@
           </div>
           <div class="cv-item-body">
             <ul>
-              <li>Competing in the <b>international Olympics of Abilities</b> for people with disabilities</li>
-              <li>Contending against competitors from <b>26 different countries</b></li>
-              <li>Contributing to the <b>visibility</b>, <b>inclusion</b> and <b>promotion</b> of people with a handicap</li>
+              <li>Competing against contenders from <b>26 different countries</b></li>
+              <li>Contributing to the <b>visibility</b>, <b>inclusion</b> and <b>promotion</b> of people with a disability</li>
               <li>Undergoing extensive <b>coaching and preparation</b> to ensure the best possible performance</li>
               <li>Designing and building an <b>entire front-end</b> in <b>6 hours</b>, scoring a grade of <b>85.6/100</b></li>
             </ul>
@@ -249,8 +266,8 @@
           <div class="cv-item-body">
             <ul>
               <li>Designing an online platform for Japanese-learning French speakers</li>
-              <li><b>Collabotating remotely</b> with lead backend engineer</li>
-              <li>Creating friendly and welcoming <b>visual identity</b></li>
+              <li><b>Collabotating remotely</b> with the lead backend engineer</li>
+              <li>Creating a friendly and welcoming <b>visual identity</b></li>
               <li>Providing a <b>design system</b>, <b>functional prototype</b> and <b>full code documentation</b></li>
               <li>Developing a <b>framework-agnostic</b> and lightweight frontend with <b>HTML, JS & Sass</b></li>
               <li>Available online at <a href="https://kakikukeko.fr/" target="_blank">kakikukeko.fr</a></li>
@@ -276,7 +293,7 @@
           </div>
           <div class="cv-item-body">
             <ul>
-              <li>Defining technical requirements for websites, and presenting them in a redacted report</li>
+              <li>Defining technical requirements for websites, and presenting them in a written report</li>
               <li>Wireframing and prototyping with <b>Figma</b> and <b>Adobe XD</b></li>
               <li>Translating design into code using <b>HTML</b>, <b>CSS</b> and <b>Sass</b>, <b>Javascript</b>, <b>PHP</b></li>
             </ul>
@@ -289,6 +306,5 @@
       </div>
     </section>
   </main>
-
 </body>
 </html>
